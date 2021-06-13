@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../../dist/nest/apps/api",
+    "types": ["node"],
+    "emitDecoratorMetadata": true,
+    "target": "es2015"
+  },
+  "exclude": ["**/*.spec.ts"],
+  "include": ["**/*.ts"]
+}

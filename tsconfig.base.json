@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom", "esnext.asynciterable"],
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@natalia/nest/interfaces/*": ["nest/interfaces/*"],
+      "@natalia/nest/services/*": ["nest/services/*"],
+      "@natalia/nest/ui/*": ["nest/ui/*"],
+      "@natalia/nest/utils/*": ["nest/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
