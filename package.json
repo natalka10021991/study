@@ -2,7 +2,7 @@
   "name": "natalia",
   "version": "0.0.0",
   "scripts": {
-    "api:dev": "npx nest start api"
+    "api:dev": "npx nest start api --watch"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
