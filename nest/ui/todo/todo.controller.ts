@@ -10,7 +10,6 @@ import {
 } from '@natalia/nest/interfaces/todo';
 import { TodoService } from '@natalia/nest/services/todo';
 import { Body, Controller, Delete, Get, Post, Put } from '@nestjs/common';
-import { Observable } from 'rxjs';
 
 @Controller('todos')
 export class TodoController
@@ -27,6 +26,8 @@ export class TodoController
     return this._todoService.todos();
   }
 
+
+  
   @Post()
   createTodo(@Body() args: ITodoCreateArgs): ITodo {
     return this._todoService.createTodo(args);

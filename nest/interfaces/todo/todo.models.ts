@@ -1,10 +1,5 @@
-import {
-  ITodoDescriptionProp,
-  ITodoIdProp,
-  ITodoTitleProp,
-} from './todo.props';
-
-export interface ITodo
-  extends ITodoIdProp,
-    ITodoTitleProp,
-    ITodoDescriptionProp {}
+export interface ITodo {
+  id: number;
+  title: string;
+  description: string;
+}

@@ -1,15 +1,14 @@
-import {
-  ITodoDescriptionProp,
-  ITodoIdProp,
-  ITodoTitleProp,
-} from './todo.props';
+export interface ITodoCreateInput {
+  title: string;
+  description: string;
+}
 
-export interface ITodoCreateInput
-  extends ITodoTitleProp,
-    ITodoDescriptionProp {}
+export interface ITodoWhereUniqueInput {
+  id: number;
+}
 
-export interface ITodoWhereUniqueInput extends ITodoIdProp {}
-
-export interface ITodoUpdateInput
-  extends ITodoTitleProp,
-    ITodoDescriptionProp {}
+export interface ITodoUpdateInput {
+  id: number;
+  title: string;
+  description: string;
+}

@@ -18,7 +18,18 @@ export class TodoService
     IUpdateTodoGateway,
     IDeleteTodoGateway
 {
-  private _todos: ITodo[] = [];
+  private _todos: ITodo[] = [
+    {
+      id: 5,
+      title: 'title fifth todo',
+      description: 'description fifth todo',
+    },
+    {
+      id: 10,
+      title: 'title tenth todo',
+      description: 'description tenth todo',
+    },
+  ];
 
   todos(): ITodo[] {
     return this._todos;
