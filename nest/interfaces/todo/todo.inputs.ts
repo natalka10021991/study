@@ -8,7 +8,6 @@ export interface ITodoWhereUniqueInput {
 }
 
 export interface ITodoUpdateInput {
-  id: number;
   title: string;
   description: string;
 }

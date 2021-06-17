@@ -5,3 +5,9 @@
 ```
 npm run api:dev
 ```
+
+## Run react app
+
+```
+npm run react:start
+```
