@@ -15,11 +15,11 @@ function Dog() {
 }
 
 Cat.prototype.playSound = function() {
-    console.log("Meom")
+    console.log("Meom");
 }
 
 Dog.prototype.playSound = function() {
-    console.log("Woof")
+    console.log("Woof");
 }
 
 const masha = new Cat('Masha', 10);
